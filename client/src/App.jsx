@@ -1,18 +1,18 @@
 import React from 'react'
-import style from './App.css'
-import Navbar from './components/Navbar'
-import Search from './components/Search'
-import Filter from './components/Filter'
-import Posts from './components/Posts'
+import { BrowserRouter, Routes, Route } from 'react-router-dom'
+
+import Home from './Home'
 
 function App() {
   return (
-    <>
-      <Navbar />
-      <Search />
-      <Filter />
-      <Posts />
-    </>
+    <div>
+      <BrowserRouter>
+        <Routes>
+          <Route index element={<Home />} />
+          <Route path="/home" element={<Home />} />
+        </Routes>
+      </BrowserRouter>
+    </div>
   )
 }
 
