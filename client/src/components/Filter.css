@@ -1,0 +1,13 @@
+#filtersContainer {
+    width: 80vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#filtersContainer a {
+    padding-right: 15px;
+}
+#filtersContainer a:last-child {
+    padding-right: 0;
+}

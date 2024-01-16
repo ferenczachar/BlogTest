@@ -1,0 +1,17 @@
+#navBar {
+    width: 80vw;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#title {
+    font-size: 32px;
+}
+.navBarList {
+    display: flex;
+    gap: 15px;
+}
+.logo, .navBarList {
+    width: 10vw;
+}

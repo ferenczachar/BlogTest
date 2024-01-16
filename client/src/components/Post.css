@@ -1,0 +1,20 @@
+.post {
+    margin-bottom: 30px;
+}
+.post img {
+    width: 15vw;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+}
+.post h2 {
+    margin: 15px 0;
+    font-size: 18px;
+    width: 15vw;
+}
+
+.post p {
+    width: 15vw;
+    opacity: 0.8;
+    max-height: 10vh;
+    overflow: hidden;
+}
